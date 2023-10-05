@@ -2,75 +2,93 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
 
-body{
+* {
     margin: 0;
     padding: 0;
     font-family: poppins;
+}
+
+body {
     text-align: center;
 }
 
 /*/ ------- GENÉRICO ------- /*/
 
-.azul{
+.azul {
     color: #2f86d6;
 }
-.branco{
+
+.branco {
     color: #fff;
     font-weight: normal;
 }
 
 /*/ ------- TOPO ------- /*/
 
-.topo{
-    background-color: #2f86d6;
-   
-    padding: 35px 0px;
+.topo {
+background-color: #2f86d6;
+padding: 35px 0;
 }
 
-.conteudo{
-    width: 1024px;
-    display: flex;
+
+.conteudo {
     margin: auto;
+    max-width: 1024px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
 }
 
-.logo{
+.logo {
     width: 320px;
     display: flex;
-    margin-right: 300px;
+    justify-content: space-around;
 }
 
-.texto-logo{
+.texto-logo {
     display: block;
     text-align: left;
-    line-height: 10px;
-    margin-left: 15px;
 }
-.texto-logo p{
-    color: #fff;
-}
+
 
 .logo img{
     width: 25%;
 }
 
-.topo a{
+.link-topo {
+    max-width: 375px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.topo a {
     text-decoration: none;
     color: #fff;
-    margin: 24px 10px;
 }
+
+
 
 /*/ ------- MEIO ------- /*/
 
 .meio{
-    width: 1024px;
+    max-width: 1024px;
     margin: auto;
     padding: 100px 0;
 }
 
-.meio table{
-    border-collapse: collapse;
+.meio table {
+    width: 100%;
+    width: auto;
     margin: auto;
+    padding: 20px;
+    border-collapse: collapse;
+    flex-grow: 1;
 }
+
 
 .meio tr, td{
     border: #f1f3f7 solid 2px;
@@ -111,6 +129,7 @@ body{
 
 .maior{
     width: 30%;
+    height: 50px;
 }
 
 .esquerda{
@@ -127,27 +146,11 @@ body{
 .rodape{
     padding: 100px 0 0 0;
     background-color: #2f86d6;
-}
-
-.logo2{
-    width: 320px;
     display: flex;
-    margin: auto;
+    flex-direction: column;
+    align-items: center;
 }
 
-.texto-logo2{
-    display: block;
-    text-align: left;
-    line-height: 10px;
-    margin-left: 15px;
-}
-.texto-logo2 p{
-    color: #fff;
-}
-
-.logo2 img{
-    width: 25%;
-}
 
 .contato{
     line-height: 30px;
@@ -156,6 +159,7 @@ body{
 }
 
 .fim{
+    width: 100%;
     background-color: #f6f6f6;
     padding: 20px 0;
     font-size: large;
