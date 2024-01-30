@@ -14,272 +14,1084 @@ body {
 
 /*/  ------- GENERICO -------  /*/
 
-.conteudo {
-    max-width: 1024px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    margin: auto;
-    align-items: center;
-}
 
-.azul {
-    color: #2f86d6;
-}
+    .azul {
+        color: #2f86d6;
+    }
 
-.escuro {
-    background-color: #f1f3f7;
-}
+    .escuro {
+        background-color: #f1f3f7;
+    }
 
-/*/  ------- TOPO -------  /*/
+@media only screen and (max-width: 480px) {
 
-.topo {
-    margin: auto;
-    max-width: 1024px;
-    background-color: #fff;
-    padding: 35px 0;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-    gap: 30px;
-}
+    .conteudo {
+        max-width: 480px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin: auto 20px;
+        align-items: center;
+    }
 
-.logo {
-    width: 320px;
-    display: flex;
-    justify-content: space-around;
-}
+    .topo {
+        margin: auto;
+        max-width: 1024px;
+        background-color: #fff;
+        padding: 35px 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        gap: 30px;
+    }
 
-.texto-logo {
-    display: block;
-    text-align: left;
-}
+    .logo {
+        width: 320px;
+        display: flex;
+        justify-content: space-around;
+    }
 
-.logo img {
-    width: 25%;
-}
+    .texto-logo {
+        display: block;
+        text-align: left;
+    }
 
-.link-topo {
-    max-width: 375px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    gap: 10px;
-}
+    .logo img {
+        width: 25%;
+    }
 
-.topo a {
-    text-decoration: none;
-    color: #000;
-}
+    .link-topo {
+       
+        max-width: 350px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        gap: 10px;
+    }
 
-/*/  ------- BANNER -------  /*/
+    .topo a {
+        text-decoration: none;
+        color: #000;
+        font-size: 15px;
+    }
 
-.banner {
-    background-color: #2f86d6;
-    padding: 180px 0;
-}
+    /*/  ------- BANNER -------  /*/
 
-.imagem-banner {
-    width: 50%;
-}
+    .banner {
+        background-color: #2f86d6;
+        padding: 100px 0;
+    }
 
-.imagem-banner img {
-    width: 100%;
-    height: 100%;
-}
+    .imagem-banner {
+        width: 80%;
+    }
 
-.texto-banner {
-    color: #fff;
-    text-align: left;
-    width: 512px;
-}
+    .imagem-banner img {
+        width: 100%;
+        height: 100%;
+    }
 
-.texto-banner h2 {
-    margin: 20px 0;
-}
+    .texto-banner {
+        color: #fff;
+        text-align: left;
+        width: 512px;
+    }
 
-/*/  ------- PRIMEIRO ANUNCIO -------  /*/
+    .texto-banner h2 {
+        margin: 20px 0;
+    }
 
-.pri-anuncio {
-    background-color: #233032;
-    padding: 40px 0;
-}
+    /*/  ------- PRIMEIRO ANUNCIO -------  /*/
 
-.texto-conteudo {
-    text-align: left;
-    color: #fff;
-    width: 600px;
-}
+    .pri-anuncio {
+        background-color: #233032;
+        padding: 40px 0;
+    }
 
-.link {
-    width: 200px;
-    text-decoration: none;
-    color: #fff;
-    background-color: #2f86d6;
-    padding: 10px;
-    font-weight: bold;
-    border-radius: 5px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
+    .texto-conteudo {
+        text-align: center;
+        color: #fff;
+        width: 600px;
+    }
 
-.link img {
-    width: 20px;
-}
+    .link {
+        width: 200px;
+        text-decoration: none;
+        color: #fff;
+        background-color: #2f86d6;
+        padding: 10px;
+        font-weight: bold;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
 
-/*/ ------- INFORMAÇÕES ------- /*/
+    .link img {
+        width: 20px;
+    }
 
-.informacoes {
-    max-width: 1024px;
-    margin: auto;
-    padding: 100px 0;
-    justify-content: space-around;
-    flex-direction: column;
-}
+    /*/ ------- INFORMAÇÕES ------- /*/
 
-.informacoes h2 {
-    max-width: 900px;
-    margin: auto;
-    margin-bottom: 50px;
+    .informacoes {
+        max-width: 1024px;
+        margin: auto;
+        padding: 100px 0;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+
+    .informacoes h2 {
+        max-width: 900px;
+        margin: auto;
+        margin-bottom: 50px;
+        
+    }
+
+    .info {
+        width: 300px ;
+        height: 200px;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .info img {
+        width: 30%;
+        margin: auto;
+    }
+
+    .info p {
+        font-size: small;
+    }
+
+    /*/ ------- PLANOS ------- /*/
+
+    .planos {
+        background-color: #f6f6f6;
+        padding: 100px 0;
+        
+    }
+
+    .planos h2 {
+        max-width: 1024px;
+        margin: auto;
+        margin-bottom: 70px;
+        font-size: 20px;
+    }
+
+    .planos table {
+        max-width: 1024px;
+        max-height: 512px;
+        width: 80vw;
+        height: auto;
+        margin: auto;
+        padding: 20px;
+        box-shadow: 1px 1px 20px 10px rgba(47, 134, 214, 1);
+        border-collapse: collapse;
+        flex-grow: 1;
+    }
+
+    .cabeca {
+        width: 100%;
+        margin: auto;
+        display: block;
+        height: 170px;
+    }
+
+    .cabeca-titulo {
+        align-items: center;
+    }
+
+    .imagem-tabela {
+        width: 100%;
+        height: auto;
+    }
+
+    .cabeca img {
+        height: 70px;
+        width: auto;
+    }
+
+    .cabeca-paragrafo {
+        height: 10%;
+        align-items: center;
+    }
+
+    .planos p {
+        font-size: 10px;
+        color: #a8a4a4;
+        font-weight: normal;
+        margin-top: 10%;
+    }
+
+    .planos h3 {
+        font-size: 10px;
+    }
+
+
+    .planos td {
+        padding: 20px 0;
+        border: #f1f1f1 solid 2px;
+        font-size: 10px;
+    }
+
+    .planos th {
+        border: #f1f3f7 solid 2px;
+        width: 33%;
+        align-items: top;
+    }
+
+    /*/  ------- SEGUNDO ANUNCIO -------  /*/
+
+    .seg-anuncio {
+        background-color: #2f86d6;
+        padding: 40px 0;
+    }
+
+    .texto-conteud {
+        text-align: left;
+        color: #fff;
+        width: 600px;
+    }
+
+    .link2 {
+        width: 200px;
+        text-decoration: none;
+        color: #fff;
+        background-color: #233032;
+        padding: 10px;
+        font-weight: bold;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .link2 img {
+        width: 20px;
+    }
+
+    /*/ ------- RODAPÉ ------- /*/
+
+    .rodape {
+        padding: 100px 0 0 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    .contato {
+        line-height: 30px;
+        font-weight: bold;
+        margin: 100px 0;
+        width: 90vw;
+    }
+
+    .fim {
+        width: 100%;
+        background-color: #f6f6f6;
+        padding: 20px 0;
+        font-size: large;
+    }
+}    
+
+@media only screen and (min-width: 481px) and (max-width: 1024px) {
+
+    .conteudo {
+        max-width: 800px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin: auto;
+        align-items: center;
+    }
+
+    .topo {
+        margin: auto;
+        max-width: 1024px;
+        background-color: #fff;
+        padding: 35px 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .logo {
+        width: 320px;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .texto-logo {
+        display: block;
+        text-align: left;
+    }
+
+    .logo img {
+        width: 25%;
+    }
+
+    .link-topo {
+        max-width: 375px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        gap: 10px;
+    }
+
+    .topo a {
+        text-decoration: none;
+        color: #000;
+    }
+
+    /*/  ------- BANNER -------  /*/
+
+    .banner {
+        background-color: #2f86d6;
+        padding: 180px 0;
+    }
+
+    .imagem-banner {
+        width: 50%;
+    }
+
+    .imagem-banner img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .texto-banner {
+        color: #fff;
+        text-align: left;
+        width: 512px;
+    }
+
+    .texto-banner h2 {
+        margin: 20px 0;
+    }
+
+    /*/  ------- PRIMEIRO ANUNCIO -------  /*/
+
+    .pri-anuncio {
+        background-color: #233032;
+        padding: 40px 0;
+    }
+
+    .texto-conteudo {
+        text-align: left;
+        color: #fff;
+        width: 600px;
+    }
+
+    .link {
+        width: 200px;
+        text-decoration: none;
+        color: #fff;
+        background-color: #2f86d6;
+        padding: 10px;
+        font-weight: bold;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .link img {
+        width: 20px;
+    }
+
+    /*/ ------- INFORMAÇÕES ------- /*/
+
+    .informacoes {
+        max-width: 1024px;
+        margin: auto;
+        padding: 100px 0;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+
+    .informacoes h2 {
+        max-width: 900px;
+        margin: auto;
+        margin-bottom: 50px;
+        
+    }
+
+    .info {
+        width: 300px ;
+        height: 200px;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .info img {
+        width: 30%;
+        margin: auto;
+    }
+
+    .info p {
+        font-size: small;
+    }
+
+    /*/ ------- PLANOS ------- /*/
+
+    .planos {
+        background-color: #f6f6f6;
+        padding: 100px 0;
+        
+    }
+
+    .planos h2 {
+        max-width: 1024px;
+        margin: auto;
+        margin-bottom: 70px;
+        font-size: xx-large;
+    }
+
+    .planos table {
+        max-width: 1024px;
+        max-height: 512px;
+        width: auto;
+        height: auto;
+        margin: auto;
+        padding: 20px;
+        box-shadow: 1px 1px 20px 10px rgba(47, 134, 214, 1);
+        border-collapse: collapse;
+        flex-grow: 1;
+        margin: 0 15vw;
+    }
+
+    .cabeca {
+        max-width: 256px;
+        margin: auto;
+        display: block;
+        justify-content: space-between;
+    }
+
+    .cabeca-titulo {
+        align-items: center;
+    }
+
+    .imagem-tabela {
+        width: 100%;
+        height: 150px;
+    }
+
+    .cabeca img {
+        width: 60%;
+    }
+
+    .cabeca-paragrafo {
+        height: 10%;
+        align-items: center;
+    }
+
+    .planos p {
+        font-size: small;
+        color: #a8a4a4;
+        font-weight: normal;
+        margin-top: 10%;
+    }
+
+    .planos td {
+        padding: 20px 0;
+        border: #f1f1f1 solid 2px;
+    }
+
+    .planos th {
+        border: #f1f3f7 solid 2px;
+    }
+
+    /*/  ------- SEGUNDO ANUNCIO -------  /*/
+
+    .seg-anuncio {
+        background-color: #2f86d6;
+        padding: 40px 0;
+    }
+
+    .texto-conteud {
+        text-align: left;
+        color: #fff;
+        width: 600px;
+    }
+
+    .link2 {
+        width: 200px;
+        text-decoration: none;
+        color: #fff;
+        background-color: #233032;
+        padding: 10px;
+        font-weight: bold;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .link2 img {
+        width: 20px;
+    }
+
+    /*/ ------- RODAPÉ ------- /*/
+
+    .rodape {
+        padding: 100px 0 0 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    .contato {
+        line-height: 30px;
+        font-weight: bold;
+        margin: 100px 0;
+    }
+
+    .fim {
+        width: 100%;
+        background-color: #f6f6f6;
+        padding: 20px 0;
+        font-size: large;
+    }
+}    
     
-}
-
-.info {
-    width: 300px ;
-    height: 200px;
-    display: flex;
-    justify-content: space-around;
-    flex-direction: column;
-    gap: 20px;
-}
-
-.info img {
-    width: 30%;
-    margin: auto;
-}
-
-.info p {
-    font-size: small;
-}
-
-/*/ ------- PLANOS ------- /*/
-
-.planos {
-    background-color: #f6f6f6;
-    padding: 100px 0;
-}
-
-.planos h2 {
-    max-width: 1024px;
-    margin: auto;
-    margin-bottom: 70px;
-    font-size: xx-large;
-}
-
-.planos table {
-    max-width: 1024px;
-    max-height: 512px;
-    width: auto;
-    height: auto;
-    margin: auto;
-    padding: 20px;
-    box-shadow: 1px 1px 20px 10px rgba(47, 134, 214, 1);
-    border-collapse: collapse;
-    flex-grow: 1;
-}
-
-.cabeca {
-    max-width: 256px;
-    margin: auto;
-    display: block;
-    justify-content: space-between;
-}
-
-.cabeca-titulo {
-    align-items: center;
-}
-
-.imagem-tabela {
-    width: 100%;
-    height: 150px;
-}
-
-.cabeca img {
-    width: 60%;
-}
-
-.cabeca-paragrafo {
-    height: 10%;
-    align-items: center;
-}
-
-.planos p {
-    font-size: small;
-    color: #a8a4a4;
-    font-weight: normal;
-    margin-top: 10%;
-}
-
-.planos td {
-    padding: 20px 0;
-    border: #f1f1f1 solid 2px;
-}
-
-.planos th {
-    border: #f1f3f7 solid 2px;
-}
-
-/*/  ------- SEGUNDO ANUNCIO -------  /*/
-
-.seg-anuncio {
-    background-color: #2f86d6;
-    padding: 40px 0;
-}
-
-.texto-conteud {
-    text-align: left;
-    color: #fff;
-    width: 600px;
-}
-
-.link2 {
-    width: 200px;
-    text-decoration: none;
-    color: #fff;
-    background-color: #233032;
-    padding: 10px;
-    font-weight: bold;
-    border-radius: 5px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
-
-.link2 img {
-    width: 20px;
-}
-
-/*/ ------- RODAPÉ ------- /*/
-
-.rodape {
-    padding: 100px 0 0 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+@media only screen and (min-width: 1024px) {
     
+    .conteudo {
+        max-width: 1024px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin: auto;
+        align-items: center;
+    }
+    
+    /*/  ------- TOPO -------  /*/
+
+    .topo {
+        margin: auto;
+        max-width: 1024px;
+        background-color: #fff;
+        padding: 35px 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .logo {
+        width: 320px;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .texto-logo {
+        display: block;
+        text-align: left;
+    }
+
+    .logo img {
+        width: 25%;
+    }
+
+    .link-topo {
+        max-width: 375px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        gap: 10px;
+    }
+
+    .topo a {
+        text-decoration: none;
+        color: #000;
+    }
+
+    /*/  ------- BANNER -------  /*/
+
+    .banner {
+        background-color: #2f86d6;
+        padding: 180px 0;
+    }
+
+    .imagem-banner {
+        width: 50%;
+    }
+
+    .imagem-banner img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .texto-banner {
+        color: #fff;
+        text-align: left;
+        width: 512px;
+    }
+
+    .texto-banner h2 {
+        margin: 20px 0;
+    }
+
+    /*/  ------- PRIMEIRO ANUNCIO -------  /*/
+
+    .pri-anuncio {
+        background-color: #233032;
+        padding: 40px 0;
+    }
+
+    .texto-conteudo {
+        text-align: left;
+        color: #fff;
+        width: 600px;
+    }
+
+    .link {
+        width: 200px;
+        text-decoration: none;
+        color: #fff;
+        background-color: #2f86d6;
+        padding: 10px;
+        font-weight: bold;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .link img {
+        width: 20px;
+    }
+
+    /*/ ------- INFORMAÇÕES ------- /*/
+
+    .informacoes {
+        max-width: 1024px;
+        margin: auto;
+        padding: 100px 0;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+
+    .informacoes h2 {
+        max-width: 900px;
+        margin: auto;
+        margin-bottom: 50px;
+        
+    }
+
+    .info {
+        width: 300px ;
+        height: 200px;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .info img {
+        width: 30%;
+        margin: auto;
+    }
+
+    .info p {
+        font-size: small;
+    }
+
+    /*/ ------- PLANOS ------- /*/
+
+    .planos {
+        background-color: #f6f6f6;
+        padding: 100px 0;
+        
+    }
+
+    .planos h2 {
+        max-width: 1024px;
+        margin: auto;
+        margin-bottom: 70px;
+        font-size: xx-large;
+    }
+
+    .planos table {
+        max-width: 1024px;
+        max-height: 512px;
+        width: auto;
+        height: auto;
+        margin: auto;
+        padding: 20px;
+        box-shadow: 1px 1px 20px 10px rgba(47, 134, 214, 1);
+        border-collapse: collapse;
+        flex-grow: 1;
+        margin: 0 15vw;
+    }
+
+    .cabeca {
+        max-width: 256px;
+        margin: auto;
+        display: block;
+        justify-content: space-between;
+    }
+
+    .cabeca-titulo {
+        align-items: center;
+    }
+
+    .imagem-tabela {
+        width: 100%;
+        height: 150px;
+    }
+
+    .cabeca img {
+        width: 60%;
+    }
+
+    .cabeca-paragrafo {
+        height: 10%;
+        align-items: center;
+    }
+
+    .planos p {
+        font-size: small;
+        color: #a8a4a4;
+        font-weight: normal;
+        margin-top: 10%;
+    }
+
+    .planos td {
+        padding: 20px 0;
+        border: #f1f1f1 solid 2px;
+    }
+
+    .planos th {
+        border: #f1f3f7 solid 2px;
+    }
+
+    /*/  ------- SEGUNDO ANUNCIO -------  /*/
+
+    .seg-anuncio {
+        background-color: #2f86d6;
+        padding: 40px 0;
+    }
+
+    .texto-conteud {
+        text-align: left;
+        color: #fff;
+        width: 600px;
+    }
+
+    .link2 {
+        width: 200px;
+        text-decoration: none;
+        color: #fff;
+        background-color: #233032;
+        padding: 10px;
+        font-weight: bold;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .link2 img {
+        width: 20px;
+    }
+
+    /*/ ------- RODAPÉ ------- /*/
+
+    .rodape {
+        padding: 100px 0 0 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    .contato {
+        line-height: 30px;
+        font-weight: bold;
+        margin: 100px 0;
+    }
+
+    .fim {
+        width: 100%;
+        background-color: #f6f6f6;
+        padding: 20px 0;
+        font-size: large;
+    }
 }
 
-.contato {
-    line-height: 30px;
-    font-weight: bold;
-    margin: 100px 0;
-}
+@media only screen and (min-width: 1024px) {
 
-.fim {
-    width: 100%;
-    background-color: #f6f6f6;
-    padding: 20px 0;
-    font-size: large;
+    .conteudo {
+        max-width: 1024px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin: auto;
+        align-items: center;
+    }
+
+    .topo {
+        margin: auto;
+        max-width: 1024px;
+        background-color: #fff;
+        padding: 35px 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .logo {
+        width: 320px;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .texto-logo {
+        display: block;
+        text-align: left;
+    }
+
+    .logo img {
+        width: 25%;
+    }
+
+    .link-topo {
+        max-width: 375px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        gap: 10px;
+    }
+
+    .topo a {
+        text-decoration: none;
+        color: #000;
+    }
+
+    /*/  ------- BANNER -------  /*/
+
+    .banner {
+        background-color: #2f86d6;
+        padding: 180px 0;
+    }
+
+    .imagem-banner {
+        width: 50%;
+    }
+
+    .imagem-banner img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .texto-banner {
+        color: #fff;
+        text-align: left;
+        width: 512px;
+    }
+
+    .texto-banner h2 {
+        margin: 20px 0;
+    }
+
+    /*/  ------- PRIMEIRO ANUNCIO -------  /*/
+
+    .pri-anuncio {
+        background-color: #233032;
+        padding: 40px 0;
+    }
+
+    .texto-conteudo {
+        text-align: left;
+        color: #fff;
+        width: 600px;
+    }
+
+    .link {
+        width: 200px;
+        text-decoration: none;
+        color: #fff;
+        background-color: #2f86d6;
+        padding: 10px;
+        font-weight: bold;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .link img {
+        width: 20px;
+    }
+
+    /*/ ------- INFORMAÇÕES ------- /*/
+
+    .informacoes {
+        max-width: 1024px;
+        margin: auto;
+        padding: 100px 0;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+
+    .informacoes h2 {
+        max-width: 900px;
+        margin: auto;
+        margin-bottom: 50px;
+        
+    }
+
+    .info {
+        width: 300px ;
+        height: 200px;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .info img {
+        width: 30%;
+        margin: auto;
+    }
+
+    .info p {
+        font-size: small;
+    }
+
+    /*/ ------- PLANOS ------- /*/
+
+    .planos {
+        background-color: #f6f6f6;
+        padding: 100px 0;
+        
+    }
+
+    .planos h2 {
+        max-width: 1024px;
+        margin: auto;
+        margin-bottom: 70px;
+        font-size: xx-large;
+    }
+
+    .planos table {
+        max-width: 1024px;
+        max-height: 512px;
+        width: auto;
+        height: auto;
+        margin: auto;
+        padding: 20px;
+        box-shadow: 1px 1px 20px 10px rgba(47, 134, 214, 1);
+        border-collapse: collapse;
+        flex-grow: 1;
+        margin: 0 15vw;
+    }
+
+    .cabeca {
+        max-width: 256px;
+        margin: auto;
+        display: block;
+        justify-content: space-between;
+    }
+
+    .cabeca-titulo {
+        align-items: center;
+    }
+
+    .imagem-tabela {
+        width: 100%;
+        height: 150px;
+    }
+
+    .cabeca img {
+        width: 60%;
+    }
+
+    .cabeca-paragrafo {
+        height: 10%;
+        align-items: center;
+    }
+
+    .planos p {
+        font-size: small;
+        color: #a8a4a4;
+        font-weight: normal;
+        margin-top: 10%;
+    }
+
+    .planos td {
+        padding: 20px 0;
+        border: #f1f1f1 solid 2px;
+    }
+
+    .planos th {
+        border: #f1f3f7 solid 2px;
+    }
+
+    /*/  ------- SEGUNDO ANUNCIO -------  /*/
+
+    .seg-anuncio {
+        background-color: #2f86d6;
+        padding: 40px 0;
+    }
+
+    .texto-conteud {
+        text-align: left;
+        color: #fff;
+        width: 600px;
+    }
+
+    .link2 {
+        width: 200px;
+        text-decoration: none;
+        color: #fff;
+        background-color: #233032;
+        padding: 10px;
+        font-weight: bold;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .link2 img {
+        width: 20px;
+    }
+
+    /*/ ------- RODAPÉ ------- /*/
+
+    .rodape {
+        padding: 100px 0 0 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    .contato {
+        line-height: 30px;
+        font-weight: bold;
+        margin: 100px 0;
+    }
+
+    .fim {
+        width: 100%;
+        background-color: #f6f6f6;
+        padding: 20px 0;
+        font-size: large;
+    }
 }
